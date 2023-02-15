@@ -1,6 +1,12 @@
+// importing 'path' module to provide to work with file system.
+
 const path = require('path');
+
+// importing the 'fs' module to work with file system
 const fs = require('fs');
 
+// creating a constant variable 'templatesDir'
+// '_dirname' is the directory of the module and will construct the path to the template directory
 const templatesDir = path.resolve(__dirname, "../templates");
 
 // the function render takes the employees argument which is an array of employee objects.

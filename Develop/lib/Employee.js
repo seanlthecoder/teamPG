@@ -1,3 +1,6 @@
+// class employee with a constructor function that pulls in three parameters; name, id and email.
+
+// constructor function holds the values of name, id and email are assign to the properties of the object by using 'this'
 class Employee {
   constructor(name, id, email) {
     this.name = name;

@@ -1,3 +1,7 @@
+// class employee with a constructor function that pulls in parameters; name, id, email and office number.
+
+// constructor function holds the values of name, id, email and officeNumber are assign to the properties of the object by using 'this'
+
 const Employee = require("./Employee")
 
 class Manager extends Employee {

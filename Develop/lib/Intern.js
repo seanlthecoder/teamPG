@@ -1,3 +1,6 @@
+// class employee with a constructor function that pulls in parameters; name, id, email and schoolName.
+
+// constructor function holds the values of name, id and email are assign to the properties of the object by using 'this'
 const Employee = require("./Employee")
 
 class Intern extends Employee {
