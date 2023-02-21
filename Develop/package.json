@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
+  "scripts": { 
+    "test": "jest",
+    "start": "node app.js"
+    
+    
   },
+
+ 
   "keywords": [],
   "author": "",
   "license": "ISC",

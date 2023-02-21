@@ -63,6 +63,9 @@ const render = employees => {
 
         };
 
+
+        // function reading the 'manager.html' file located in the 'templatesDir' directory
+        // path.resolve is used to create an absolute path to the 'manager.html' file
         const renderManager = manager => {
             let template = fs.readFileSync(path.resolve(templatesDir, "manager.html"), "utf8");
             template = replacePlaceholders(template, "name", manager.getName());

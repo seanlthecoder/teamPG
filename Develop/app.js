@@ -17,7 +17,7 @@ const output_dir = path.resolve(__dirname, "output");
 const outputPath = path.join(output_dir, "team.html");
 
 // Import the htmlRenderer.js from the lib directory and assign it to the render constant.
-const render = require(".lib/htmlRenderer.js");
+const render = require("./lib/htmlRenderer");
 
 // this empty array will be used to store team members
 const employees = [];
@@ -80,8 +80,7 @@ const confirmEmail = async (input) => {
     };
 
       const newTeam = () => {
-        inquirer
-            .prompt([
+       return inquirer.prompt([
                 {
                     type: 'input',
                     name: 'employeeName',
@@ -160,11 +159,12 @@ const confirmEmail = async (input) => {
                 employees.push(addedEmployee); 
 
                 if (answers.anotherEmployee) {
-                    return newTeam();
+                     newTeam();
                 } else {
-                    return makeHtml();
+                     createHtml();
                 };
             });
+        
             
                 // this function starts the prompt
 
