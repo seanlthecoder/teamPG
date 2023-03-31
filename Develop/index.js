@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
-const Engineer = require("./Develop/lib/Engineer");
-const Manager = require("./Develop/lib/Manager");
-const Intern = require("./Develop/lib/Intern");
+const Engineer = require("./lib/Engineer");
+const Manager = require("./lib/Manager");
+const Intern = require("./lib/Intern");
 
 function init() {
   inquirer
