@@ -27,7 +27,7 @@ After reaching the "Develop" folder through the command line, initiate the appli
 
 ## Walkthrough Video
 
-
+https://www.screencast.com/t/yZxKHoz99ty
 
 
 ## License
